@@ -54,11 +54,11 @@ export class AppComponent implements OnInit {
     inputElement.select();
     document.execCommand('copy');
     inputElement.setSelectionRange(0, 0);
-    this.showSuccess();
+    // this.showSuccess();
   }
 
   showSuccess() {
-    console.log('hit');
-    this.toasterService.show('Successfully Copied!', { classname: 'bg-success text-light' });
+    // console.log('hit');
+    // this.toasterService.show('Successfully Copied!', { classname: 'bg-success text-light' });
   }
 }
