@@ -10,7 +10,7 @@ import { ToasterService } from 'src/services/toaster.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'ikmaltj';
+  title = 'ikmltj';
 
   narutoModels: NarutoModel[] = [];
   userInput: string = '';
