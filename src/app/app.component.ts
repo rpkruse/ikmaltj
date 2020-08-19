@@ -43,7 +43,7 @@ export class AppComponent implements OnInit {
     }
 
     this.userInput += stringToAdd;
-    this.userInput = this.userInput.trimLeft();
+    // this.userInput = this.userInput.trimLeft();
   }
 
   getCharacterImg(img: string): string {

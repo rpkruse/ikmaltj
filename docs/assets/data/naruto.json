@@ -1,0 +1,129 @@
+{
+  "characters": [
+    {
+      "name": "Naruto",
+      "memeName": "Naruto",
+      "img": "naruto.jpg"
+    },
+    {
+      "name": "Sasuke",
+      "memeName": "Edgy Boi",
+      "img": "sasuke.jpg"
+    },
+    {
+      "name": "Sakura",
+      "memeName": "Pink Hair Girl",
+      "img": "sakura.jpg"
+    },
+    {
+      "name": "Rock Lee",
+      "memeName": "Bowl Cut Child",
+      "img": "rocklee.jpg"
+    },
+    {
+      "name": "Neji",
+      "memeName": "Grunpy Grey Eye Boi",
+      "img": "neji.jpg"
+    },
+    {
+      "name": "TenTen",
+      "memeName": "No screen time girl",
+      "img": "tenten.jpg"
+    },
+    {
+      "name": "Choji",
+      "memeName": "Fat Guy Who Eats A Lot",
+      "img": "choji.jpg"
+    },
+    {
+      "name": "Shikamaru",
+      "memeName": "Such a drag guy",
+      "img": "shikamaru.jpg"
+    },
+    {
+      "name": "Ino",
+      "memeName": "Grumpy Blode Girl",
+      "img": "ino.jpg"
+    },
+    {
+      "name": "Kiba",
+      "memeName": "Dog Boi",
+      "img": "kiba.jpg"
+    },
+    {
+      "name": "Shino",
+      "memeName": "Bug Boi",
+      "img": "shino.jpg"
+    },
+    {
+      "name": "Hinata",
+      "memeName": "Quite Grey Eye Girl",
+      "img": "hinata.jpg"
+    },
+    {
+      "name": "Temari",
+      "memeName": "Fan Girl",
+      "img": "temari.jpg"
+    },
+    {
+      "name": "Gaara",
+      "memeName": "Sand Boi",
+      "img": "gaara.jpg"
+    },
+    {
+      "name": "Kankuro",
+      "memeName": "Doll Boi",
+      "img": "kankuro.jpg"
+    },
+    {
+      "name": "Iruka",
+      "memeName": "Naurto Child Teacher Guy",
+      "img": "iruka.jpg"
+    },
+    {
+      "name": "Kakashi",
+      "memeName": "Naruto Teacher Guy",
+      "img": "kakashi.jpg"
+    },
+    {
+      "name": "Might Guy",
+      "memeName": "Bowl Cut Man",
+      "img": "mightguy.jpg"
+    },
+    {
+      "name": "Asuma",
+      "memeName": "Teacher that smokes all the time",
+      "img": "asuma.jpg"
+    },
+    {
+      "name": "Kurenai",
+      "memeName": "Red Eye Teacher Lady",
+      "img": "kurenai.jpg"
+    },
+    {
+      "name": "jiraiya",
+      "memeName": "Frog Boi",
+      "img": "jiraiya.jpg"
+    },
+    {
+      "name": "Kabuto",
+      "memeName": "Glasses Boi",
+      "img": "kabuto.jpg"
+    },
+    {
+      "name": "Itachi",
+      "memeName": "Evil Edgy Boi",
+      "img": "itachi.jpg"
+    },
+    {
+      "name": "Konohamaru",
+      "memeName": "Old Guys Grandson",
+      "img": "konohamaru.jpg"
+    },
+    {
+      "name": "Hiashi",
+      "memeName": "Grey Eyed Dad Guy",
+      "img": "hiashi.jpg"
+    }
+  ]
+}
