@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="row mb-1">
+    <div class="col-12 text-center">
+      <h1 class="d-none d-sm-block">I Know More Lore Than Jack</h1>
+      <h5 class="d-block d-sm-none">I Know More Lore Than Jack</h5>
+    </div>
+  </div>
+
+  <div class="row" *ngIf="narutoModels && narutoModels.length > 0">
+    <div class="col-lg-6">
+      <div class="row character-list">
+        <div class="col-4 border-bottom mt-2 pb-2" *ngFor="let narModel of narutoModels">
+          <img [src]="getCharacterImg(narModel.img)" (click)="addCharacterName(narModel)"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6">
+      <div class="row">
+        <div class="col-12">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" [(ngModel)]="normalMode">
+            <label class="form-check-label" for="inlineCheckbox1">Normal</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" [(ngModel)]="memeMode">
+            <label class="form-check-label" for="inlineCheckbox2">Meme</label>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="input-group">
+            <textarea class="form-control" placeholder="Message here..." rows="5" #userinput [value]="userInput" (input)="userInput = $event.target.value"></textarea>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="btn" class="btn btn-sm btn-primary float-right" (click)="copyInputMessage(userinput)">Copy!</button>
+          <button type="btn" class="btn btn-sm btn-danger float-right mr-2" (click)="userInput = ''">Clear!</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
