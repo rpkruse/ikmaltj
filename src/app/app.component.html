@@ -29,7 +29,8 @@
         </div>
         <div class="col-12">
           <div class="input-group">
-            <textarea class="form-control" placeholder="Message here..." rows="5" #userinput [value]="userInput" (input)="userInput = $event.target.value"></textarea>
+            <textarea class="form-control d-none d-sm-block" placeholder="Message here..." rows="10" #userinput [value]="userInput" (input)="userInput = $event.target.value"></textarea>
+            <textarea class="form-control d-block d-sm-none" placeholder="Message here..." rows="5" #userinput [value]="userInput" (input)="userInput = $event.target.value"></textarea>
           </div>
         </div>
         <div class="col-12">
